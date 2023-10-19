@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Asar&family=Lora:ital@1&family=Montserrat:ital,wght@1,600;1,700;1,800&display=swap');
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
 .colorFondoRosa{
     background-color: rgb(213, 159, 182);
 }
@@ -46,4 +50,20 @@ a {
 .parrafoPrincipal{
     text-align: center;
     margin-top: 250px;
+}
+.my-auto {
+    margin-top: auto!important;
+    margin-bottom: auto!important;
+}
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
 }

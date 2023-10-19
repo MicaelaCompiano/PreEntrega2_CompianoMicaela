@@ -1,0 +1,16 @@
+@import "reset.scss";
+@import "utilitarias.scss";
+@import "footer.scss";
+@import "header.scss";
+@import "variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Asar&family=Lora:ital@1&family=Montserrat:ital,wght@1,600;1,700;1,800&display=swap');
+.carousel{
+    width: 60%;
+}
+
+.imagen404{
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 60%;
+}
+
