@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nuestras sucursales son tu conexión con el sabor. Encuentra la más cercana a ti y sumérgete en un mundo de delicias horneadas y pastelería única.">
+    <meta name="keywords" content=" San Martin De Los Andes Sucursales gourmet Dulces artesanales Postres de calidad Repostería creativa Sabor excepcional Delicias horneadas "> 
     <title>Sucursales | Dulce Planeta</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../sass/estilos.css">
     <link rel="icon" type="image/png/" href="../assets/img/logo 1.png">
     <script src="https://kit.fontawesome.com/025482bc95.js" crossorigin="anonymous"></script>
 </head>
@@ -44,53 +46,57 @@
         </a>
     </header>
     <main>
-        <div class="TituloPrincipal">
+      <section class="row">
+        <div class="imagenSucursales col-sm-12 col-md-6 alto">
+        </div>
+      </section>
+        <div class="TituloPrincipal pt-4">
          <h1>Sucursales</h1>
         </div>
-        <p class="parrafoPrincipal"> En Dulce Planeta, estamos dedicados a brindarte un servicio excepcional. En cada una de nuestras sucursales, encontrarás un equipo amable y experto listo para ayudarte a elegir el postre perfecto o responder cualquier pregunta que puedas tener. Tu satisfacción es nuestra prioridad.</p>
+        <p class="parrafoPrincipal"> En <span class="resaltado">Dulce Planeta</span>, estamos dedicados a brindarte un servicio excepcional. En cada una de nuestras sucursales, encontrarás un equipo amable y experto listo para ayudarte a elegir el postre perfecto o responder cualquier pregunta que puedas tener. Tu satisfacción es nuestra prioridad.</p>
         <section>
-            <h2>Conoce nuestra sucursal</h2>
-            <p>Dulce Planeta te invita a disfrutar lo mejor en cada postre</p>
+            <h2 class="TituloPrincipal">Conoce nuestra sucursal</h2>
         </section>
     </main>
-    <footer class="colorFondoRosa text-black py-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h5>Información de contacto</h5>
-            <p>Dirección: San Martin de los Andes</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48802.25398016751!2d-71.34082040556737!3d-40.13914565000236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96110e743605d0c7%3A0x71c43ffb1c66bc3a!2sSan%20Martin%20de%20los%20Andes%2C%20Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1696253284141!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <p>Teléfono: 011-00000000 </p>
-            <p>dulceplaneta@gmail.com</p>
-            <p>Horario: Lunes a Viernes de 9:00 a 20:00 
-                        Sabados de 9:00 a 14:00
-            </p>
+    <footer class="container-fluid p-5 footer d-flex flex-column colorFondoRosa py-4">
+      <section class="">
+          <div class=" flexible justify-content-between linksFooter row">
+              <div class="col-sm-12 col-md-4 alto">
+                <ul>
+                   <h2>Ubicacion</h2>
+                   <p>San Martin de los Andes</p>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48802.25398016751!2d-71.34082040556737!3d-40.13914565000236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96110e743605d0c7%3A0x71c43ffb1c66bc3a!2sSan%20Martin%20de%20los%20Andes%2C%20Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1696253284141!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-4 alto">
+                <ul>
+                    <h2>Contacto</h2>
+                    <p>Teléfono: 011-00000000 </p>
+                    <p>dulceplaneta@gmail.com</p>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-4 alto">
+                <ul>
+                  <h2>Horario</h2>
+                   <p>Lunes a Viernes de 9:00 a 20:00</p>
+                   <p>Sabados de 9:00 a 14:00</p>
+               </ul>
+              </div>
+          </div>    
+         <div class=" pt-4 redesSociales d-flex justify-content-center align-items-center">
+                <a href="https://www.facebook.com/" >
+                  <i class="fa-brands fa-facebook iconFacebook"></i>
+                </a>
+                 <a href="https://www.instagram.com/">
+                  <i class="fa-brands fa-instagram iconInstagram"></i>
+                </a>
+                <a href="https://www.whatsapp.com/"> 
+                  <i class="fa-brands fa-whatsapp iconWhatsapp caja"></i>
+                </a>
+              </div>
           </div>
-          <div class="col-md-6">
-            <h5>Enlaces rápidos</h5>
-            <ul class="list-unstyled">
-              <li><a href="../index.html">Inicio</a></li>
-              <li><a href="./contacto.html">Contacto</a></li>
-              <li><a href="./nosotros.html">Nosotros</a></li>
-              <li><a href="./productos.html">Productos</a></li>
-              <li><a href="./sucursales.html">Sucursales</a></li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <h5>Redes Sociales</h5>
-            <a href="https://www.facebook.com/" >
-              <i class="fa-brands fa-facebook iconFacebook"></i>
-            </a>
-             <a href="https://www.instagram.com/">
-              <i class="fa-brands fa-instagram iconInstagram"></i>
-            </a>
-            <a href="https://www.whatsapp.com/"> 
-              <i class="fa-brands fa-whatsapp iconWhatsapp caja"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
+      </section>
+     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
     

@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Asar&family=Lora:ital@1&family=Montserrat:ital,wght@1,600;1,700;1,800&display=swap');
-
 body{
-    font-family: 'Montserrat', sans-serif;
-    color: #000000;
+    font-family: $font-principal;
+    color: map-get($mapa-colores, color-negro) ;
 }

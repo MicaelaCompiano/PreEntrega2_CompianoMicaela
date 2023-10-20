@@ -1,49 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Asar&family=Lora:ital@1&family=Montserrat:ital,wght@1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Asar&family=Lora:ital@1&family=Montserrat:ital,wght@1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asar&family=Lora:ital@1&family=Montserrat:ital,wght@1,600;1,700;1,800&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
 
-.colorFondoRosa{
-    background-color: rgb(213, 159, 182);
+.colorFondoRosa {
+  background-color: rgb(213, 159, 182);
 }
-.carousel{
-    width: 60%;
+
+.parrafoPrincipal {
+  text-align: center;
+  margin-top: 250px;
 }
+
 .TituloPrincipal {
-    text-align: center;
+  text-align: center;
 }
-.imagen404{
-    background-position: right;
-    background-repeat: no-repeat;
-    width: 60%;
-}
-.iconFacebook{
-    font-size: 2.5rem;
-    color: blue;
-}
-.iconInstagram{
-    font-size: 2.5rem;
-    color: purple;
-}
-.caja{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    color: green;
-    font-size: 3.5rem;
-}
+
 a {
-    color: #000000;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
-.logo{
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    padding-left: 20px;
+
+.iconFacebook {
+  font-size: 2.5rem;
+  color: blue;
 }
-.parrafoPrincipal{
-    text-align: center;
-    margin-top: 250px;
+
+.iconInstagram {
+  font-size: 2.5rem;
+  color: purple;
+}
+
+.caja {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: green;
+  font-size: 3.5rem;
+}
+
+.logo {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  padding-left: 20px;
+}
+
+.carousel {
+  width: 60%;
+}
+
+.imagen404 {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 60%;
 }

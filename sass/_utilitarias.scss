@@ -1,14 +1,18 @@
 .colorFondoRosa{
-    background-color: rgb(213, 159, 182);
+   background-color: map-get($mapa-colores, color-principal);
 }
 .parrafoPrincipal{
     text-align: center;
-    margin-top: 250px;
+   padding-top: 20px;
+   font-size: larger;
 }
 .TituloPrincipal {
     text-align: center;
 }
 a {
-    color: #000000;
+    color: map-get($mapa-colores, color-negro);
     text-decoration: none;
+}
+.resaltado{
+    background-color: map-get($mapa-colores, color-principal );
 }

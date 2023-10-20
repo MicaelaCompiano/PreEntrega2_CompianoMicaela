@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Asar&family=Lora:ital@1&family=Montserrat:ital,wght@1,600;1,700;1,800&display=swap");
+.colorFondoRosa {
+  background-color: rgb(213, 159, 182);
+}
+
+.parrafoPrincipal {
+  text-align: center;
+  padding-top: 20px;
+  font-size: larger;
+}
+
+.TituloPrincipal {
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.resaltado {
+  background-color: rgb(213, 159, 182);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.logo {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  padding-left: 20px;
+}
+
+.carousel {
+  width: 60%;
+}
+
+.box {
+  background-image: linear-gradient(to right top, #d59fb6, #c698ba, #b292be, #9a8ec0, #7d8bc0);
+}
+
+.imagenSucursales {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background: linear-gradient(to right top, rgba(213, 159, 182, 0.5294117647), rgba(198, 152, 186, 0.4941176471), rgba(178, 146, 190, 0.5568627451), rgba(154, 142, 192, 0.5058823529), rgba(125, 140, 192, 0.5058823529)), url(portada.jpg);
+  background-position: center;
+}
+
+footer .flexible {
+  display: flex;
+  flex-direction: row;
+}
+footer .linksFooter {
+  border-bottom: 2px solid black;
+  padding-left: 5px;
+}
+footer .linksFooter .redesSociales {
+  padding-left: 20px;
+}
+footer .linksFooter .redesSociales .iconFacebook, footer .linksFooter .redesSociales .iconInstagram {
+  font-size: 2.5rem;
+  color: blue;
+}
+footer .linksFooter .redesSociales .iconInstagram {
+  color: purple;
+}
+footer .linksFooter .redesSociales .caja {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: green;
+  font-size: 3.5rem;
+}
+
+.imagen404 {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 60%;
+}/*# sourceMappingURL=estilos.css.map */
