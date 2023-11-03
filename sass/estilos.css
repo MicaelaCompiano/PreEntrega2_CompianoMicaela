@@ -43,15 +43,8 @@ body {
   background-image: linear-gradient(to right top, #d59fb6, #c698ba, #b292be, #9a8ec0, #7d8bc0);
 }
 
-.imagenSucursales {
-  height: 75vh;
+.carousel-container {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background: linear-gradient(to right top, rgba(213, 159, 182, 0.5294117647), rgba(198, 152, 186, 0.4941176471), rgba(178, 146, 190, 0.5568627451), rgba(154, 142, 192, 0.5058823529), rgba(125, 140, 192, 0.5058823529)), url(portada.jpg);
-  background-position: center;
 }
 
 footer .flexible {

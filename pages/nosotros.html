@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../sass/estilos.css">
     <link rel="icon" type="image/png/" href="../assets/img/logo 1.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/025482bc95.js" crossorigin="anonymous"></script>
 
 </head>
@@ -51,21 +52,39 @@
          <h1>Nosotros</h1>
         </div>
         <section class="row">
-          <div class="col-sm-12 col-md-6 alto">
-           <img src="../assets/img/cookies 1.jpg" alt="imagenCookies" class="img-thumbnail">
+          <div class="col-sm-12 col-md-4 alto" data-aos="fade-right">
+           <img src="../assets/img/cookies 1.jpg" alt="imagenCookies" class="img-fluid">
           </div>
-          <div class="col-sm-12 col-md-6 alto parrafoPrincipal">
-           <p>En <span class="resaltado">Dulce Planeta</span>, nuestra historia es dulce y apasionada. Desde nuestros humildes comienzos como una pequeña pastelería artesanal, hemos crecido para convertirnos en una verdadera galaxia de sabores. Nuestra dedicación a la calidad y la creatividad nos ha llevado a explorar nuevas fronteras culinarias y ofrecer a nuestros clientes una experiencia de pastelería única.
-
-           Nuestra misión en <span class="resaltado">Dulce Planeta</span> es llevar la alegría y la dulzura a la vida de las personas a través de nuestros deliciosos postres. Cada día nos esforzamos por crear productos de alta calidad, utilizando ingredientes frescos y naturales. Nos enorgullece ser parte de los momentos especiales en la vida de nuestros clientes.
-          
-           Somos un equipo apasionado de pasteleros y amantes de la repostería. Nuestros chefs talentosos combinan técnicas tradicionales con creatividad vanguardista para producir obras maestras de sabor y diseño. Estamos comprometidos con la excelencia en cada detalle.
-          
-           <span class="resaltado">Dulce Planeta</span> no es solo una pastelería, es una comunidad de amantes de la repostería. Nos encanta interactuar con nuestros clientes y escuchar sus historias. Nos inspiran y nos motivan a seguir creando dulces maravillosos. Únete a nuestra comunidad y comparte la dulzura con nosotros.</p>
+          <div class="col-sm-12 col-md-6 alto parrafoPrincipal" data-aos="fade-left">
+           <p>En <span class="resaltado">Dulce Planeta</span>, nuestra historia es dulce y apasionada. Desde nuestros humildes comienzos como una pequeña pastelería artesanal, hemos crecido para convertirnos en una verdadera galaxia de sabores. Nuestra dedicación a la calidad y la creatividad nos ha llevado a explorar nuevas fronteras culinarias y ofrecer a nuestros clientes una experiencia de pastelería única.</p>
           </div>        
-          </section>
-        </main>
-        <footer class="container-fluid p-5 footer d-flex flex-column colorFondoRosa py-4">
+        </section>
+        <section class="row">
+          <div class="col-sm-12 col-md-4 alto" data-aos="fade-right">
+           <img src="../assets/img/torta formulario.jpg" alt="imagenformulario" class="img-fluid">
+          </div>
+          <div class="col-sm-12 col-md-6 alto parrafoPrincipal" data-aos="fade-left">
+            <p>Nuestra misión en <span class="resaltado">Dulce Planeta</span> es llevar la alegría y la dulzura a la vida de las personas a través de nuestros deliciosos postres. Cada día nos esforzamos por crear productos de alta calidad, utilizando ingredientes frescos y naturales. Nos enorgullece ser parte de los momentos especiales en la vida de nuestros clientes.</p>
+          </div>
+        </section>
+        <section class="row">
+          <div class="col-sm-12 col-md-4 alto" data-aos="fade-right">
+            <img src="../assets/img/cookies llama.jpg" alt="imagenformulario" class="img-fluid">
+          </div>
+          <div class="col-sm-12 col-md-6 alto parrafoPrincipal" data-aos="fade-left">
+            <p>Somos un equipo apasionado de pasteleros y amantes de la repostería. Nuestros chefs talentosos combinan técnicas tradicionales con creatividad vanguardista para producir obras maestras de sabor y diseño. Estamos comprometidos con la excelencia en cada detalle.</p>
+          </div>
+        </section>
+        <section class="row">
+          <div class="col-sm-12 col-md-4 alto" data-aos="fade-right">
+           <img src="../assets/img/torta formulario 3.jpg" alt="imagenformulario" class="img-fluid">
+          </div>
+          <div class="col-sm-12 col-md-6 alto parrafoPrincipal" data-aos="fade-left">
+            <p><span class="resaltado">Dulce Planeta</span> no es solo una pastelería, es una comunidad de amantes de la repostería. Nos encanta interactuar con nuestros clientes y escuchar sus historias. Nos inspiran y nos motivan a seguir creando dulces maravillosos. Únete a nuestra comunidad y comparte la dulzura con nosotros.</p>
+          </div>
+        </section>
+    </main>
+    <footer class="container-fluid footer d-flex flex-column colorFondoRosa py-4">
           <section class="">
               <div class=" flexible justify-content-between linksFooter row">
                   <div class="col-sm-12 col-md-4 alto">
@@ -103,8 +122,12 @@
                   </div>
               </div>
           </section>
-         </footer>
+    </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      </script>
 </body>
 
 </html>

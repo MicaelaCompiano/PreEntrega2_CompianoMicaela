@@ -4,13 +4,6 @@
 .box {
     background-image: linear-gradient(to right top, #d59fb6, #c698ba, #b292be, #9a8ec0, #7d8bc0);
 }
-.imagenSucursales{
-    height: 75vh;
+.carousel-container{
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background: linear-gradient(to right top, #d59fb687, #c698ba7e, #b292be8e, #9a8ec081, #7d8cc081), url(portada.jpg);
-    background-position: center;
 }

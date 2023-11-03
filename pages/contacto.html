@@ -46,31 +46,40 @@
         </a>
     </header>
     <main class="box">
-      <div class="TituloPrincipal pt-4">
-        <h1>Formulario</h1>
-      </div>
-       <p class="parrafoPrincipal">No te pierdas las últimas noticias y ofertas exclusivas de Dulce Planeta. Suscríbete a nuestro boletín para recibir actualizaciones regulares en tu bandeja de entrada. Mantente al tanto de las promociones y novedades. Unite a nuestra comunidad de amantes de los postres y nunca te perderás un dulce detalle.</p>
-       <form action="404.html" method="post"> 
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre" required>
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido" required>
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Ingrese su mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ingrese su mensaje"></textarea>
-      </div>
-      <button type="reset" class="btn btn-primary">Limpiar Formulario</button>
-      <button type="submit" class="btn btn-primary">Enviar Formulario</button>
+      <section class="row container">
+       <div class="TituloPrincipal pt-4">
+         <h1>Formulario</h1>
+       </div>
+       <div>
+        <p class="parrafoPrincipal">No te pierdas las últimas noticias y ofertas exclusivas de Dulce Planeta. Suscríbete a nuestro boletín para recibir actualizaciones regulares en tu bandeja de entrada. Mantente al tanto de las promociones y novedades. Unite a nuestra comunidad de amantes de los postres y nunca te perderás un dulce detalle.</p>
+       </div>
+       <div class="col-md-7">
+         <form action="404.html" method="post"> 
+         <div class="mb-3">
+           <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+           <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre" required>
+         </div>
+         <div class="mb-3">
+           <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+           <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido" required>
+         </div>
+         <div class="mb-3">
+           <label for="exampleFormControlInput1" class="form-label">Email</label>
+           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+         </div>
+         <div class="mb-3">
+           <label for="exampleFormControlTextarea1" class="form-label">Ingrese su mensaje</label>
+           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ingrese su mensaje"></textarea>
+         </div>
+          <button type="reset" class="btn btn-primary">Limpiar Formulario</button>
+          <button type="submit" class="btn btn-primary">Enviar Formulario</button>
+       </div>
+       <div class="col-md-5 col-sm-12">
+         <img src="../assets/img/cookies gatitos.jpg" alt="imagen torta formulario" class="img-fluid">
+       </div>
+      </section>
     </main>
-    <footer class="container-fluid p-5 footer d-flex flex-column colorFondoRosa py-4">
+    <footer class="container-fluid footer d-flex flex-column colorFondoRosa py-4 ">
       <section class="">
           <div class=" flexible justify-content-between linksFooter row">
               <div class="col-sm-12 col-md-4 alto">
